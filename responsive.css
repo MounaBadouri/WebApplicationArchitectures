@@ -1,0 +1,50 @@
+ *{
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+
+}
+.Navigationbar{
+    background: linear-gradient(135deg, grey, white 60%);
+
+}
+.Body{
+  background: linear-gradient(135deg, grey, white 60%);
+}
+
+.wrapper {
+    padding: 5px;
+    position: relative;
+}
+
+/* Mobile Styles */
+@media (max-width: 400px) {
+/* Red */
+
+}
+
+
+/* Tablet Styles */
+@media  (min-width: 401px) and (max-width: 960px) {
+
+  .wrapper {
+    display: grid;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 5%;
+            background-color: #EEEEEE;
+
+}
+}
+
+/* Desktop Styles */
+@media  (min-width: 961px) {
+
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 200px;
+      column-gap: 5%;
+
+
+  }
